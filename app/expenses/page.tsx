@@ -23,8 +23,8 @@ import {
 
 function CardWithForm() {
   return (
-    <div className="flex justify-center items-center ml-52 mt-2 min-h-screen px-4">
-<Card className="w-[80vh] -mt-[20vh] ">
+    <div className="flex justify-center items-center h-screen ml-[20vh] ">
+<Card className="w-[70vh] -mt-[20vh] ">
       <CardHeader>
         <CardTitle>Montitor Your Spendings</CardTitle>
         <CardDescription>Insert Your Financial Details</CardDescription>
@@ -34,7 +34,7 @@ function CardWithForm() {
           <div className="grid w-full items-center gap-4">
             <div className="flex flex-col space-y-1.5">
               <Label htmlFor="item">Item</Label>
-              <Input id="item" placeholder="Name of the item or the reason for expense" />
+              <Input id="item" placeholder="Name of the item or the reason of expense" />
             </div>
             <div className="flex flex-col space-y-1.5">
               <Label htmlFor="amount">Enter Amount in ETB</Label>

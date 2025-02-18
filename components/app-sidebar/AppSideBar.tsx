@@ -3,7 +3,6 @@ import { Calendar, Home, Inbox, Search, Settings, LayoutDashboard, BadgeDollarSi
 import {
   Sidebar,
   SidebarContent, 
-  
   SidebarGroup,
   SidebarGroupContent,
   SidebarGroupLabel,
@@ -16,23 +15,23 @@ import {
 const items = [
   {
     title: "Dashboard",
-    url: "#",
+    url: "/",
     icon: LayoutDashboard,
   },
   {
     title: "Transactions",
-    url: "#",
+    url: "/transactions",
     icon: BadgeDollarSign,
   },
   {
     title: "Expenses",
-    url: "#",
+    url: "/expenses",
     icon: HandCoins,
   },
  
   {
     title: "Settings",
-    url: "#",
+    url: "/settings",
     icon: Settings,
   },
 ]
